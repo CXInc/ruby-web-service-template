@@ -31,8 +31,8 @@ group :test do
   # Unit tests and expectations for integration tests
   gem "rspec"
 
-  # For cucumber tests that check JSON handling
-  gem 'json_spec'
+  # For cucumber tests
+  gem 'api_spec'
 
   # Debugging
   gem 'pry'

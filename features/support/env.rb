@@ -1,5 +1,5 @@
 require 'rack/test'
-require 'json_spec/cucumber'
+require 'api_spec/cucumber'
 
 ENV["RACK_ENV"] = "test"
 
@@ -13,8 +13,3 @@ end
 
 World(Rack::Test::Methods)
 World(AppHelper)
-
-# For json_spec
-def last_json
-  @response.body
-end
